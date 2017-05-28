@@ -19,6 +19,12 @@ span{
     font-weight: 400;
 }
 
+.col-1-2
+{
+    width: 50%;
+    float: left;
+}
+
 /*general style stop*/
 
 
@@ -154,9 +160,9 @@ KONIEC MOJEGO KODU */
 /*Main-header STOP*/
 
 
-/*SEKCJA O MNIE start*/
+/*SEKCJA O MNIE start
 
-/* MÓJ KOD 
+
 
 #about h2
 {   
@@ -198,7 +204,35 @@ KONIEC MOJEGO KODU */
     font-weight: 300;
     position: absolute;
 }
+
+#about > p
+{
+    line-height: 25px;
+    font-weight: 300;
+}
+
 */
+
+
+/* SEKACJA O MNIE ZROBIONA PRZEZ ŁUKASZA
+section about- START */
+
+#about
+{
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about figure
+{ 
+    margin: 0;
+}
+
+#about figure img
+{
+ width: 100%;
+    
+}
 
 
 
