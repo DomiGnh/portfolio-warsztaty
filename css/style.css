@@ -39,7 +39,7 @@ section{
 /*general style stop*/
 
 
-/*menu*/
+/*menu START*/
 
 nav#menu
 {
@@ -132,7 +132,7 @@ KONIEC MOJEGO KODU */
 
 /*HEADER ZROBIONY PRZEZ ŁUKASZA*/
 
-/*header#main-header -start*/
+/*HEADER-start*/
 
 #main-header
 {
@@ -149,7 +149,6 @@ KONIEC MOJEGO KODU */
     font-family:'Roboto', sans-serif;
     position: absolute;
     text-align: center;
-    
     left: 0;
     right: 0;
     top: 50%;
@@ -168,7 +167,7 @@ KONIEC MOJEGO KODU */
     font-weight: 300;
 }
 
-/*Main-header STOP*/
+/*HEADER STOP*/
 
 
 /*SEKCJA O MNIE start
@@ -264,14 +263,24 @@ section about- START */
   text-align: center; 
   font-weight: 300;
   line-height: 24px;
+  position: relative;
    
 }
 
-#skills img
-{
-    padding: 30px;
+#skills #kafelki{
+    position: absolute;
+    left: 25%;
+    right:25%;
+    margin-top: 5%;
+    
 }
 
+
+
+#skills .ikona{
+    float:left;
+    
+   }
 
 
 
