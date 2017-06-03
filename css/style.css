@@ -50,6 +50,10 @@ nav#menu
    
 }
 
+nav#menu .toggle, #drop{
+    display:none;
+}
+
 nav#menu > ul
 {
     margin:0;
