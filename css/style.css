@@ -420,6 +420,9 @@ section about- START */
     color: #fff;
 }
 
+section#contact > h2{
+    text-align: left;
+}
 
 
 footer{
