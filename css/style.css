@@ -399,8 +399,19 @@ section about- START */
     position: relative;
 }
 
+#portfolio .portfolio-items .portfolio-item .item-mask{
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    font-size: initial;
+}
 
-
+#portfolio .portfolio-items .portfolio-item .item-mask:hover {
+    opacity: 1;
+}
 
 
 
@@ -414,9 +425,8 @@ section about- START */
 #contact{
     background-color: #213b50 ;
     width: 100%;
-    height: 55vh;
-    margin-top: 10%;
-    text-align: left;
+    height: 70vh;
+    margin-top: 5%;
     color: #fff;
 }
 
@@ -424,16 +434,42 @@ section#contact > h2{
     text-align: left;
 }
 
+input[type="text"],
+input[type="imie"],
+input[type="email"]{
+   background-color: #2b4a64;
+color: #fff;
+border: 1px solid #2b4a64;
+width: 400px;
+padding: 10px 0;
+margin-bottom: 20px;} 
+
+
+input[type="submit"]{
+    background-color:#1ac056;
+    padding: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 100px;
+    
+}
+    
+
+
 
 footer{
     background-color: darkslategray;
     width:100%;
     height:5vh;
     color:#fff;
-   
 }
 
-
+footer > p 
+{
+    margin-left: 5%;
+    margin-top: 0;
+   
+}
 
 
 
