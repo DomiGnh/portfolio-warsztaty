@@ -430,8 +430,13 @@ section about- START */
     padding:5px;
 }
 
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a{
+    color: #fff;
+}
 
-
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover{
+    color: #1ac056;
+}
 
 
 
