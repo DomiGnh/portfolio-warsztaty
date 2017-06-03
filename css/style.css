@@ -384,9 +384,20 @@ section about- START */
     background-image: url(img/portfolio3.jpg);
 }
 
+#portfolio .portfolio-items{
+    text-align: center;
+    font-size: 0;
+}
 
-
-
+#portfolio .portfolio-items .portfolio-item {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width:33.3333%;
+    position: relative;
+}
 
 
 
@@ -403,9 +414,13 @@ section about- START */
 #contact{
     background-color: #213b50 ;
     width: 100%;
-    height: 60vh;
-    margin-top: 30%;
+    height: 55vh;
+    margin-top: 10%;
+    text-align: left;
+    color: #fff;
 }
+
+
 
 footer{
     background-color: darkslategray;
