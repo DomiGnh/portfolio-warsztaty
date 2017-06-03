@@ -338,6 +338,7 @@ section about- START */
 /*moja sekcja portfolio 2*/
 
 /*moje porftolio start*/
+/*
 #portfolio .image{
     width: 31%;
     height: 40vh;
@@ -364,7 +365,38 @@ section about- START */
     background-size: cover;
     background-position: center;
 }
-/*moje portfolio stop*/
+*/
+/*moje portfolio STOP*/
+
+
+/*sekcja portfolio styles wojtka START*/
+
+
+#portfolio #portfolio-item1{
+    background-image: url(img/portfolio1.jpg);
+}
+
+#portfolio #portfolio-item2{
+    background-image: url(img/portfolio2.jpg);
+}
+
+#portfolio #portfolio-item3{
+    background-image: url(img/portfolio3.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*mój footer*/
 
