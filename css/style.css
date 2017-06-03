@@ -444,6 +444,7 @@ section about- START */
 
 
 /*mój footer*/
+/*
 
 #contact{
     background-color: #213b50 ;
@@ -451,11 +452,22 @@ section about- START */
     height: 70vh;
     margin-top: 5%;
     color: #fff;
+    position: relative;
 }
 
 section#contact > h2{
     text-align: left;
 }
+
+#contact .dane .ikony{
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+
 
 input[type="text"],
 input[type="imie"],
@@ -500,8 +512,27 @@ footer > p
     margin-top: 0;
    
 }
+*/
 
 
+/* sekcja Kontakt Wojtka START*/
+
+#contact{
+    background-color: #213b50;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+    color: #fff;
+    position: relative;
+}
+
+#contact .contact-social-icons a{
+    border: 1px solid #fff;
+    padding: 3px;
+    color: #fff;
+   
+    
+}
 
 
 
