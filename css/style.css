@@ -337,14 +337,34 @@ section about- START */
 
 /*moja sekcja portfolio 2*/
 
-
-
-#portfolio div#portfolio-image figure{
-    display: inline-block;
-    width: 33%;
-    height: 30vh;
+/*moje porftolio start*/
+#portfolio .image{
+    width: 31%;
+    height: 40vh;
+    float: left;
+    left: 50%;
+    right:50%;
+    transform: translate(-50%; -50%);
 }
 
+#portfolio .zdj1
+{ background-image: url(img/portfolio1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .zdj2
+{ background-image: url(img/portfolio2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio .zdj3
+{ background-image: url(img/portfolio3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*moje portfolio stop*/
 
 /*mój footer*/
 
@@ -352,7 +372,7 @@ section about- START */
     background-color: #213b50 ;
     width: 100%;
     height: 60vh;
-    
+    margin-top: 30%;
 }
 
 footer{
